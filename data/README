@@ -1,0 +1,17 @@
+Final Exam Scheduler
+Team G2. Kyz
+http://www.cs.rit.edu/~zxz6862/kyz/
+
+This folder contains sample data sets for testing purposes. All data 
+sets are generated using the FESGenerateData utility.
+
+Dataset	#-of-sections	#-of-students
+5	5		100
+10	10		200
+20	20		600
+40	40		1500
+50	50		1500
+100	100		3000
+200	200		6000
+336	336		2456
+2500	2500		16000

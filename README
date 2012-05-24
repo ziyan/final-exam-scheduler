@@ -1,0 +1,11 @@
+Final Exam Scheduler
+G2. Team Kyz
+http://www.cs.rit.edu/~zxz6862/kyz
+
+Directory descriptions:
+src - source code
+libs - included jars
+performance - recorded timing metrics and graphs
+scripts - scripts to compile, run, and benchmark the programs
+data - provided sample data sets with different problem sizes
+output - provided sample program outputs

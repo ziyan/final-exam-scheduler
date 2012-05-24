@@ -1,0 +1,17 @@
+Final Exam Scheduler
+Team G2. Kyz
+http://www.cs.rit.edu/~zxz6862/kyz/
+
+This directory contains all necessary scripts to compile and execute the 
+program. Plesae refer the the User/Developer Manual for details.
+
+To compile:
+./compile.bash
+
+To run an algorithm with K nodes and N problem size:
+./run.basn <Permutation|SA|Genetic> <K> <N> [JVM-args]
+
+To benchmark all algorithms:
+./benchmark.bash
+
+To crawl infocenter.rit.edu for section information, look into crawler/.

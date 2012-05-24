@@ -1,0 +1,19 @@
+Final Exam Scheduler
+Team G2. Kyz
+http://www.cs.rit.edu/~zxz6862/kyz/
+
+This directory contains all scripts to crawl section information from 
+infocenter.rit.edu.
+
+To crawl those information into a file readable by all FES programs:
+./crawler.bash | php crawler.php > courses.txt
+
+To create a database, use the db.sql script.
+
+To crawl into a database:
+./crawler.bash | php crawler.php | php upload.php <host> <user> <pass> <db>
+
+Basically,
+crawler.bash uses wget to dump content of all disciplines
+crawler.php strip that content dump
+upload.php uploads it to the db

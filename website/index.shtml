@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Team Kyz | 4005-735-01 Parallel Computing I</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="en"/>
+<link rel="stylesheet" href="index.css" type="text/css" media="screen" />
+</head>
+
+<body>
+<div id="header">
+<h1>Team Kyz</h1>
+</div>
+
+<div id="main">
+<p>Graduate team project for <a href="http://www.cs.rit.edu/~ark/531/">4005-735-01 Parallel Computing I</a>, RIT Winter 2008.</p>
+
+<h3>Team Members</h3>
+<ul>
+<li>Kevin Cheek (kec3707)</li>
+<li>Yandong Wang (yxw9319)</li>
+<li><a href="http://ziyan.info/">Ziyan Zhou (zxz6862)</a></li>
+</ul>
+
+<h3>Project Abstract</h3>
+<p>RIT has approximately 16,000 current students and offers roughly 3,000 sections 
+of courses per quarter. The problem of generating a comfortable final exam 
+schedule for all students becomes fitting 3,000 final exams into 20 time slots 
+during the finals week. The number of possible permutations, 20<sup>3000</sup>, is 
+astronomical. We hope to show that a parallel approach will offer a significant 
+performance benefit over a sequential approach for this problem.<br />
+<br />
+The final exam scheduler is an application that will to compute an optimal final 
+exam schedule for RIT students. The program will use a list of course offered by 
+RIT and cross reference it with the class registration of students. In order to 
+find the best schedule, we will devise a ranking algorithm to score each 
+schedule on various criteria and the resultant schedule should be close to an 
+optimal solution.</p>
+
+<h3>Project Proposal</h3>
+<ul>
+<li><a href="http://docs.google.com/Doc?id=dcmrtgt8_9c3t4qtvn">HEAD Revision (Google Docs)</a></li>
+<li><a href="proposal.pdf">Released Revision on 12/16/2008 (PDF)</a></li>
+</ul>
+
+<h3>Source</h3>
+<ul>
+<li>SVN repository available at <a href="http://svn.ziyan.info/svn/kyz/trunk">http://svn.ziyan.info/svn/kyz/trunk</a>.</li>
+</ul>
+
+<h3>Presentation 1</h3>
+<ul>
+<li><a href="http://docs.google.com/Presentation?id=ajdrrbfqr24t_26dqgbsndn">HEAD Revision (Google Docs)</a><br/><br/>
+<iframe src='http://docs.google.com/EmbedSlideshow?docid=ajdrrbfqr24t_26dqgbsndn' frameborder='0' width='410' height='342'></iframe><br/><br/>
+</li>
+<li><a href="presentation1.pdf">Released Revision on 1/15/2009 (PDF)</a> <a href="presentation1.pptx">(PPTX)</a></li>
+<li><a href="parallel_genetic_cheatsheet.pdf">Parallel Genetic Cheatsheet (PDF)</a></li>
+</ul>
+
+
+<h3>Presentation 2</h3>
+<ul>
+<li><a href="http://docs.google.com/Presentation?id=dcmrtgt8_10ds5n72c2">HEAD Revision (Google Docs)</a><br/><br/>
+<iframe src='http://docs.google.com/EmbedSlideshow?docid=dcmrtgt8_10ds5n72c2' frameborder='0' width='410' height='342'></iframe><br/><br/>
+<li><a href="presentation2.pdf">Released Revision on 2/5/2009 (PDF)</a> <a href="presentation2.pptx">(PPTX)</a></li>
+</ul>
+
+<h3>Final Report</h3>
+<ul>
+<li>Released Revision on 2/22/2009<ul>
+<li><a href="fes.pdf">Final Report merged with User/Developer Manual (PDF)</a></li>
+<li><a href="fes.tar">Source Code Package (TAR)</a> <a href="fes.jar">(JAR, need to chmod +x on scripts)</a></li>
+<li><a href="report.pdf">Final Report (PDF)</a></li>
+<li><a href="manual.pdf">User/Developer Manual (PDF)</a></li>
+</ul></li>
+</ul>
+</div>
+
+<div id="footer">
+Page last updated on <!--#config timefmt="%A %B %d, %Y" --><!--#flastmod file="index.shtml" -->. <a href="http://validator.w3.org/check?uri=referer">Valid XHTML</a>
+</div>
+</body>
+</html>
